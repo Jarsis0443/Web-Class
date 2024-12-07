@@ -15,7 +15,7 @@ body{
 
 
 .home{
-	background: url(image/p5.jpg);
+	background: url('image/P5.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
