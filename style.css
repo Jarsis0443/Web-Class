@@ -330,11 +330,13 @@ h1 {
 .name-box {
 	border: 2px solid #835927; 
 	border-radius: 8px; 
-	padding: 10px 80px; 
-	background-color: rgba(255, 255, 255, 0.493);
+	padding: 10px 20px; 
+	box-shadow: rgba(0, 0, 0, 0.25);
+	background: linear-gradient(to top left, rgba(25,25,25, 0.179), #835927);
 	text-align: center;
 	color: black;
-	font-size: 2rem;
+	font-size: 16px;
+	font-weight: bold;
 	margin-top: 5px; 
   }
   .murid-box {
