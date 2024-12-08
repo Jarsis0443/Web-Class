@@ -1,4 +1,4 @@
-const words = ["Welcome", "to", "X.8 "];
+const words = ["Welcome to X.8!"];
 let i = 0;
 let j = 0;
 let currentWord = "";
