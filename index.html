@@ -22,7 +22,7 @@
         <nav class="">
           <ul class="flex gap-5 p-3 justify-end">
             <li class=" hover:text-gray-300 font-semibold"><a href="index.html">Home</a></li>
-            <li class=" hover:text-gray-300 font-semibold"><a href="#struktur">Struktur</a></li>
+            <li class=" hover:text-gray-300 font-semibold"><a href="#struct">Struktur</a></li>
             <li class=" hover:text-gray-300 font-semibold"><a href="#gallery">Gallery</a></li>
             <li class=" hover:text-gray-300 font-semibold"><a href="#jaket">Jadwal</a></li>
           </ul>
@@ -83,34 +83,41 @@
     </div>
   </div>
   <div class="my-32 relative text-white mt-12 text-2xl" id="struktur">
-    <h1 class="font-semibold mx-auto max-w-fit" data-aos="fade-up">Structure</h1>
-    <div class="mx-auto max-w-fit text-lg mt-8 mb-1">Wali Kelas</div>
-    <div class="mx-auto max-w-fit rounded-full bg-white text-black text-base py-1 px-5 font-semibold mb-12">
-        Ni Komang Rani Pradnyani, S.Pd
-    </div>
-    <div class="grid-container">
-        <!-- Ketua -->
-        <div class="grid-item ketua">
-            <div class="role">Ketua Kelas</div>
-            <div class="name rounded-full bg-white text-black text-base py-1 px-5 font-semibold">Bhavananda</div>
+    <h1 class="text-white mx-auto max-w-fit font-semibold text-3xl" data-aos="fade-up">Structure</h1>
+    <div style="margin-bottom: 50px;"></div>
+    <div>
+      <!-- Struktur Organisasi -->
+      <div class="flex justify-evenly mt-10">
+      <div class="text-center">
+        <div class="role">Wali Kelas</div>
+        <div class="name-box">Rani Pradnyani S.Pd</div>
+      </div>
+      </div>
+  
+      <!-- Grid dengan flexbox, jika ingin lebih responsif -->
+      <div class="flex justify-evenly mt-10">
+        <div class="text-center">
+          <div class="font-bold" style="transform: translateX(128px);">Ketua Kelas</div>
+          <div class="murid-box" style="transform: translateX(128px);">Nanda</div>
         </div>
-        <!-- Wakil -->
-        <div class="grid-item wakil">
-            <div class="role">Wakil Ketua</div>
-            <div class="name rounded-full bg-white text-black text-base py-1 px-5 font-semibold">Kanaya</div>
+        <div class="text-center">
+          <div class="font-bold" style="transform: translateX(-128px);">Wakil Ketua</div>
+          <div class="murid-box" style="transform: translateX(-128px);">Kanaya</div>
         </div>
-        <!-- Sekretaris -->
-        <div class="grid-item sekretaris">
-            <div class="role">Sekretaris</div>
-            <div class="name rounded-full bg-white text-black text-base py-1 px-5 font-semibold">Marsha</div>
-            <div class="name rounded-full bg-white text-black text-base py-1 px-5 font-semibold">Ayudia</div>
+      </div>
+  
+      <div class="flex justify-evenly mt-10">
+        <div class="text-center">
+          <div class="font-bold" style="transform: translateX(121px);">Sekretaris</div>
+          <div class="murid-box" style="transform: translateX(121px);">Marsha</div>
+          <div class="murid-box" style="transform: translateX(121px);">Ayudia</div>
         </div>
-        <!-- Bendahara -->
-        <div class="grid-item bendahara">
-            <div class="role">Bendahara</div>
-            <div class="name rounded-full bg-white text-black text-base py-1 px-5 font-semibold">Viola</div>
-            <div class="name rounded-full bg-white text-black text-base py-1 px-5 font-semibold">Depa</div>
+        <div class="text-center">
+          <div class="font-bold" style="transform: translateX(-125px);">Bendahara</div>
+          <div class="murid-box" style="transform: translateX(-125px);">Viola</div>
+          <div class="murid-box" style="transform: translateX(-125px);">Dewi</div>
         </div>
+      </div>
     </div>
 </div>
 
@@ -194,63 +201,82 @@
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
   </div>
-  <div class="text-white my-32 mx-auto max-w-[1024px]">
-    <div class="max-w-fit mx-auto font-bold text-3xl"data-aos="fade-up" id="jaket">Picket Schedule</div>
-    <div class="flex justify-around item-center my-12 ">
-      <div class="">
-        <div class="font-semibold text-2xl underline underline-offset-4">SENIN</div>
-        <div class="piket-column">
-        <div class="max-w-fit mx-auto font-bold text-2xl">Agung</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Kanaya</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Ayee</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Dinda</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Alba</div>
-        </div>
-      </div>
-      <div class="">
-        <div class="font-semibold text-2xl underline underline-offset-4">SELASA</div>
-        <div class="piket-column">
-        <div class="max-w-fit mx-auto font-bold text-2xl">Putri</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Devina</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Merta</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Depa</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Karma</div>
-        </div>
-      </div>
-      <div class="">
-        <div class="font-semibold text-2xl underline underline-offset-4">RABU</div>
-        <div class="piket-column">
-        <div class="max-w-fit mx-auto font-bold text-2xl">Diana</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Rahtut</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Vedangga</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Lunna</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Atik</div>
-        </div>
-      </div>
+  <div class="max-w-fit mx-auto font-bold text-3xl"data-aos="fade-up" id="jaket">Picket Schedule</div>
+  <div style="margin-bottom: 50px;"></div>
+  <div class="schedule">
+    <div class="day" onclick="toggleDetails(this)">
+        <span>Senin</span>
+        <span class="icon">▼</span>
     </div>
-    <div class="flex justify-around item-center my-12 ">
-      <div class="">
-        <div class="font-semibold text-2xl underline underline-offset-4">KAMIS</div>
-        <div class="piket-column">
-        <div class="max-w-fit mx-auto font-bold text-2xl">Nanda</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Mandala</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Eka</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Arya</div>
-        <div class="max-w-fit mx-auto font-bold text-2xl">Bella</div>
-        </div>
-      </div>
-      <div class="">
-        <div class="font-semibold text-2xl underline underline-offset-4">JUM'AT</div>
-        <div class="piket-column">
-        <div class="max-w-fit mx-auto font-bold text-2xl"> Dika </div>
-        <div class="max-w-fit mx-auto font-bold text-2xl"> Yoga </div>
-        <div class="max-w-fit mx-auto font-bold text-2xl"> Jody </div>
-        <div class="max-w-fit mx-auto font-bold text-2xl"> Anna </div>
-        <div class="max-w-fit mx-auto font-bold text-2xl"> Mita </div>
-        </div>
-      </div>
+    <div class="details" id="senin"></div>
+
+    <div class="day" onclick="toggleDetails(this)">
+        <span>Selasa</span>
+        <span class="icon">▼</span>
     </div>
-  </div>
+    <div class="details" id="selasa"></div>
+
+    <div class="day" onclick="toggleDetails(this)">
+        <span>Rabu</span>
+        <span class="icon">▼</span>
+    </div>
+    <div class="details" id="rabu"></div>
+
+    <div class="day" onclick="toggleDetails(this)">
+        <span>Kamis</span>
+        <span class="icon">▼</span>
+    </div>
+    <div class="details" id="kamis"></div>
+    <div class="day" onclick="toggleDetails(this)">
+        <span>Jumat</span>
+        <span class="icon">▼</span>
+    </div>
+    <div class="details" id="jumat"></div>
+</div>
+<script>
+    const piket = {
+            senin: ["• Agung", "• Kanaya", "• Arya Oki", "• Dinda", "• Alba", "• Asih", "• Shinta"],
+            selasa: ["• Gung Putri", "• Devina", "• Darma", "• Mangmerta", "• Dewi", "• Ayu Karma", "• Devi Amartha"],
+            rabu: ["• Diana", "• Rahtut", "• Vedangga", "• Lunna", "• Trisna", "• Ayudia", "• Rizky"],
+            kamis: ["• Bhavananda", "• Mandala", "• Eka", "• Arya", "• Bella", "• Sabrina", "• Viola"],
+            jumat: ["• Dika", "• Yoga", "• Jody", "• Anna", "• Mita", "• Marsha"]
+        };
+
+        Object.keys(piket).forEach(day => {
+            const container = document.getElementById(day);
+            const names = piket[day];
+
+            const column1 = document.createElement("div");
+            const column2 = document.createElement("div");
+
+            column1.classList.add("names-column");
+            column2.classList.add("names-column");
+
+            names.forEach((name, index) => {
+                const nameElement = document.createElement("p");
+                nameElement.textContent = name;
+
+                if (index < 4) {
+                    column1.appendChild(nameElement);
+                } else {
+                    column2.appendChild(nameElement);
+                }
+            });
+
+            const namesContainer = document.createElement("div");
+            namesContainer.classList.add("names-container");
+
+            if (column1.childElementCount > 0) {
+                namesContainer.appendChild(column1);
+            }
+
+            if (column2.childElementCount > 0) {
+                namesContainer.appendChild(column2);
+            }
+
+            container.appendChild(namesContainer);
+        });
+</script>
   <footer class=" flex-col justify-between item-center text-white px-8">
     <div class="flex justify-between text-slate-300">
       <div class="my-5 flex-col">
